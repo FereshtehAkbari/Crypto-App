@@ -1,4 +1,4 @@
-import styles from "./pagination.module.css";
+import styles from "./Pagination.module.css";
 function Pagination({ page, setPage }) {
   const previosHandler = () => {
     if (page <= 1) return;
